@@ -5,7 +5,7 @@ export default function Button() {
     };
   
     return (
-      <button onClick={handleClick} className="main-button">
+      <button onClick={handleClick}>
         Click me
       </button>
     );
